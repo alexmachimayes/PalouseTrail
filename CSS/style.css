@@ -1,0 +1,166 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#titleDiv {
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #f8f8f8;
+  background: #464646;
+  z-index: 1;
+}
+
+#title {
+  margin: 15px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.invisible {
+  visibility: collapse;
+}
+
+.esri-expand .esri-expand__content {
+  box-shadow: none;
+}
+
+.esri-view-height-xsmall
+  .esri-ui-corner
+  .esri-expand
+  .esri-view-height-small
+  .esri-ui-corner
+  .esri-expand
+  .esri-legend.esri-widget {
+  max-height: 100%;
+}
+.esri-ui-bottom-left,
+.esri-ui-bottom-right {
+  width: 100%;
+/*  max-width: initial;*/
+    margin-left: 0px,
+}
+
+.esri-view-width-greater-than-small
+  .esri-ui-corner
+  .esri-basemap-gallery.esri-component {
+  width: 300px;
+  height: 160px;
+  max-width: initial;
+}
+
+
+.esri-view-width-less-than-small .esri-zoom .esri-widget--button {
+  display: none;
+}
+
+.esri-ui-bottom-left .esri-component {
+  margin-right: 0;
+}
+
+.esri-legend.esri-component.esri-widget--panel {
+  width: 300px;
+  height: 200px;
+  max-width: initial;
+}
+
+
+.esri-basemap-gallery__item-container{
+      width: 300px;
+  height: 160px;
+  max-width: initial;
+}
+
+/************************************************************************/
+
+
+
+
+
+
+
+/*
+.esri-elevation-profile.esri-widget--panel.esri-widget.esri-elevation-profile--portrait
+
+{
+    position: relative;
+  height: 200px;
+  display: flex;
+  width: 100%;
+  max-width: initial;
+  padding: 15px 15px;
+}
+*/
+
+
+
+
+/*
+.esri-expand__content.esri-expand__content--expanded
+{
+  height: auto;
+  display: flex;
+  width: 100%;
+  max-width: initial;
+  padding: 15px 15px;
+}
+*/
+
+
+/************************************************************************/
+/*
+.esri-elevation-profile.esri-component
+{
+  height: 200px;
+  display: flex;
+  width: 100%;
+  max-width: initial;
+  padding: 15px 15px;
+
+}
+*/
+
+/* Controls the size of the initial elevation display on load, but not after minimizing */
+.esri-elevation-profile.esri-component.esri-widget--panel
+{
+  height: auto;
+  display: flex;
+  width: 100%;
+  max-width: initial;
+  padding: 15px 15px;
+    margin-bottom: -10
+}
+
+/*
+.esri-view-height-xsmall .esri-elevation-profile.esri-component.esri-widget--panel:not(.esri-elevation-profile--portrait)
+   {
+  height: 200px;
+  width: 100%;
+  padding: 15px 15px;
+    margin-bottom: -10
+} 
+*/
+
+/*
+ The button control when minimized
+.esri-expand__container.esri-expand__container--expanded{
+  display: flex;
+    flex-direction: row;
+  width: 100%;
+  max-width: initial;
+}
+*/
+
+
+.esri-elevation-profile.esri-widget--panel.esri-widget.esri-elevation-profile--portrait
+{
+  padding: 15px 15px 15px 15px;
+
+}
